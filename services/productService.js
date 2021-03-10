@@ -10,6 +10,7 @@ let getProducts = async () => {
     return products;
 };
 
+
 // Get product by id
 // Validate input
 // return product
@@ -23,6 +24,7 @@ let getProductById = async (productId) => {
         console.log("getProducts service error: invalid id parameter");
         return "invalid parameter";
     }
+    // console.log(`Product id: ${productId}`)
 
     // get product (if validation passed)
     product = `product with id: ${productId}`
